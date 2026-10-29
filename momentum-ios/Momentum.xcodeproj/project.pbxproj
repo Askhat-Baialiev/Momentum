@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000009 /* ContentView.swift */; };
+		000000000000000000000002 /* FocusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000A /* FocusModel.swift */; };
+		000000000000000000000003 /* FocusSessionFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000B /* FocusSessionFlow.swift */; };
+		000000000000000000000004 /* FocusStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000C /* FocusStore.swift */; };
+		000000000000000000000005 /* MomentumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000D /* MomentumApp.swift */; };
+		000000000000000000000006 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000E /* Style.swift */; };
+		000000000000000000000007 /* TaskEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000F /* TaskEditor.swift */; };
+		000000000000000000000008 /* WeeklyOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000010 /* WeeklyOverview.swift */; };
+		000000000000000000000012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000011 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		00000000000000000000000A /* FocusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FocusModel.swift"; sourceTree = "<group>"; };
+		00000000000000000000000B /* FocusSessionFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FocusSessionFlow.swift"; sourceTree = "<group>"; };
+		00000000000000000000000C /* FocusStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FocusStore.swift"; sourceTree = "<group>"; };
+		00000000000000000000000D /* MomentumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MomentumApp.swift"; sourceTree = "<group>"; };
+		00000000000000000000000E /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Style.swift"; sourceTree = "<group>"; };
+		00000000000000000000000F /* TaskEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskEditor.swift"; sourceTree = "<group>"; };
+		000000000000000000000010 /* WeeklyOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeeklyOverview.swift"; sourceTree = "<group>"; };
+		000000000000000000000011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000000000000000000000013 /* Momentum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Momentum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00000000000000000000001B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000014 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000015 /* Momentum */,
+				000000000000000000000016 /* Products */,
+				000000000000000000000017 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000015 /* Momentum */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000009 /* ContentView.swift */,
+				00000000000000000000000A /* FocusModel.swift */,
+				00000000000000000000000B /* FocusSessionFlow.swift */,
+				00000000000000000000000C /* FocusStore.swift */,
+				00000000000000000000000D /* MomentumApp.swift */,
+				00000000000000000000000E /* Style.swift */,
+				00000000000000000000000F /* TaskEditor.swift */,
+				000000000000000000000010 /* WeeklyOverview.swift */,
+				000000000000000000000011 /* Assets.xcassets */,
+			);
+			path = Momentum;
+			sourceTree = "<group>";
+		};
+		000000000000000000000016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000013 /* Momentum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000000000000000000000017 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000018 /* Momentum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000001E /* Build configuration list for PBXNativeTarget "Momentum" */;
+			buildPhases = (
+				00000000000000000000001A /* Sources */,
+				00000000000000000000001B /* Frameworks */,
+				00000000000000000000001C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Momentum;
+			productName = Momentum;
+			productReference = 000000000000000000000013 /* Momentum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					000000000000000000000018 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 00000000000000000000001D /* Build configuration list for PBXProject "Momentum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000014;
+			productRefGroup = 000000000000000000000016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000018 /* Momentum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00000000000000000000001C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000012 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00000000000000000000001A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000001 /* ContentView.swift in Sources */,
+				000000000000000000000002 /* FocusModel.swift in Sources */,
+				000000000000000000000003 /* FocusSessionFlow.swift in Sources */,
+				000000000000000000000004 /* FocusStore.swift in Sources */,
+				000000000000000000000005 /* MomentumApp.swift in Sources */,
+				000000000000000000000006 /* Style.swift in Sources */,
+				000000000000000000000007 /* TaskEditor.swift in Sources */,
+				000000000000000000000008 /* WeeklyOverview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000001F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000000000000000000000020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000000000000000000000021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hci.momentum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000000000000000000000022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hci.momentum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00000000000000000000001D /* Build configuration list for PBXProject "Momentum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000001F /* Debug */,
+				000000000000000000000020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000001E /* Build configuration list for PBXNativeTarget "Momentum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000021 /* Debug */,
+				000000000000000000000022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000019 /* Project object */;
+}
